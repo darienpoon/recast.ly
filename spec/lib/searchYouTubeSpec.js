@@ -1,6 +1,6 @@
 import searchYouTube from '../../src/lib/searchYouTube.js';
 import exampleVideoData from '../../src/data/exampleVideoData.js';
-
+//console.log('i need this shape of data', exampleVideoData);
 var getURLSearchParams = function(url) {
   return url
     .split('?')[1]
