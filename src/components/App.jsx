@@ -15,6 +15,7 @@ var App = ({}) => {
 
   const searchHandler = (e) => {
     var query = e.target.value;
+    setInput(query);
     clearTimeout(timeout);
     timeout = setTimeout(() => {
       searchYouTube(query, (videos => {
